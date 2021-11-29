@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "dagster-playground"
+version = "0.1.0"
+description = "dagster plus dagit applications playground"
+authors = ["Dmytro Tsyliuryk <dimanowq@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.6.*"
+dagster = "^0.13.8"
+dagit = "^0.13.8"
+pandas = "0.25.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.4"
