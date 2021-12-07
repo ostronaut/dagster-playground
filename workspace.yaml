@@ -1,2 +1,3 @@
 load_from:
   - python_file: dags/csv_processor.py
+  - python_file: dags/kafka_writer.py
